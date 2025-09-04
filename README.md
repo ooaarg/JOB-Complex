@@ -7,6 +7,8 @@ Traditional & Learned Query Optimization"
   <img src="graphics/optimization_gap_annotated.jpg" width="50%">
 </p>
 
+The slides from the presentation at AIDB@VLDB'25 are available [here](https://jwehrstein.github.io/files/presentations/2025_09_01%20AIDB%20JOB%20Complex.pdf).
+
 ## Abstract
 Query optimization is a fundamental task in database systems that is crucial to providing high performance. 
 To evaluate learned and traditional optimizer's performance, several benchmarks, such as the widely used JOB benchmark, are used. 
