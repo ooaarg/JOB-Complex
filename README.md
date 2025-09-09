@@ -8,6 +8,7 @@ Traditional & Learned Query Optimization"
 </p>
 
 The slides from the presentation at AIDB@VLDB'25 are available [here](https://jwehrstein.github.io/files/presentations/2025_09_01%20AIDB%20JOB%20Complex.pdf).
+The paper can be downloaded [here](https://arxiv.org/abs/2507.07471).
 
 ## Abstract
 Query optimization is a fundamental task in database systems that is crucial to providing high performance. 
