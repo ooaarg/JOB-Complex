@@ -8,7 +8,7 @@ Traditional & Learned Query Optimization"
 </p>
 
 The slides from the presentation at AIDB@VLDB'25 are available [here](https://jwehrstein.github.io/files/presentations/2025_09_01%20AIDB%20JOB%20Complex.pdf).
-The paper can be downloaded [here](https://arxiv.org/abs/2507.07471).
+The paper (extended version) can be downloaded [here](https://jwehrstein.github.io/files/publications/JOB-Complex%20(Extended%20Version).pdf).
 
 ## Abstract
 Query optimization is a fundamental task in database systems that is crucial to providing high performance. 
@@ -85,12 +85,14 @@ AND ... -- (other join conditions)
 1. We introduce **JOB-Complex**, a novel benchmark for query optimization and cost estimation that incorporates real-world challenges such as joins on non-primary/foreign key columns, joins on string columns, and complex filter predicates.
 2. We make **JOB-Complex** publicly available ([github](https://github.com/DataManagementLab/JOB-Complex/) to foster future research and development in query optimization, encouraging the community to address these identified challenges.
 
-# Download Plan-Selection Dataset
+# Download Plan-Selection Dataset & IMDB Dataset
 You can download the plan selection datasets for JOB-Complex, JOB and JOB-light from [here](https://osf.io/53de6/?view_only=f304ebe762f34f65a3ce591340b89818).
 They include tens of thousands of plans for the different benchmarks.
 All plans are in the format of the PostgreSQL 'EXPLAIN (ANALYZE, VERBOSE, FORMAT JSON)' command.
 Further these datasets include in addition also query plans which timed out.
 You can identify these by the 'timeout' flag that is set, and the missing runtime measurement.
+
+The IMDB dataset (in the form of an .duckdb file) is available there as well.
 
 # Analysis Notebook
 All our notebooks to analyze the speedup potential, query optimization performance, cost & cardinality estimation accuracy you can find in the notebooks folders.
