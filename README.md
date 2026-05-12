@@ -36,6 +36,8 @@ Please cite our paper if you find this work useful or use it in your own researc
 # JOB-Complex
 The 30 JOB-Complex SQL queries are listed in `JOB-Complex.sql`. These queries build on the JOB benchmark and are designed to incorporate real-world complexities often missing in standard benchmarks.
 
+Fixed verison with updated aliases aligned with origin Join Order Benchmark query aliases are listed in `queries/`.
+
 ## The Need For A New Benchmark
 Standard benchmarks like TPC-H, JOB, and JOB-light do not fully capture the diversity and complexity of real-world workloads.
 - TPC-H uses synthetic data lacking real-world correlations.
